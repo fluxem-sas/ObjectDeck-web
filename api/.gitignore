@@ -1,2 +1,5 @@
-server
-static/
+# Compiled binaries (root-level only, not the cmd/server/ source directory)
+/server
+/server.exe
+/static/
+
