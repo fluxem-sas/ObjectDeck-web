@@ -1,0 +1,24 @@
+# Dependencies (rebuilt inside Docker)
+node_modules/
+web/node_modules/
+
+# Go build artifacts (produced inside Docker, not needed from host)
+api/server
+api/server.exe
+api/static/
+
+# Dev / local files
+.env*
+*.local
+scripts/
+
+# Design assets (not needed in production)
+design/
+
+# Git
+.git/
+.gitignore
+
+# Editor
+.vscode/
+.idea/
